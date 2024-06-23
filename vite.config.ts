@@ -10,8 +10,8 @@ export default defineConfig({
 		// library entry and output settings
 		lib: {
 			entry: resolve(__dirname, "lib/main.ts"),
-			name: "react-basic-component-library", // cottage-ui
-			fileName: "rbcl", // cottage-ui
+			name: "react-basic-component-library", // react-basic-component-library
+			fileName: "rbcl", // react-basic-component-library
 		},
 		// bundler options
 		// externalize react-related imports
